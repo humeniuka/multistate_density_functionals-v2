@@ -1,0 +1,30 @@
+/build
+/dist
+**/*.egg-info
+# ignore architecture dependent files
+**/*.so
+**/*.o
+**/*.pyc
+__pychache__/
+# ignore emacs backup files
+*~
+\#*\#
+# ignore pyscf temporary files
+tmp*
+
+# old copies
+*.OLD
+
+# From latex
+notes/*.aux
+notes/*.bbl
+notes/*.bcf
+notes/*.run.xml
+notes/*.blg
+notes/*.log
+notes/*.out
+notes/*.pdf
+notes/acs-*.bib
+
+# ignore files in temporary workspace
+/scratch
