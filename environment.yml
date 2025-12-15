@@ -7,7 +7,7 @@ dependencies:
     - numpy>=1.18.1
     - pandas>=2.1.4
     - psutil>=5.9.8
-    - pyscf>=2.4.0
+    - pyscf==2.4.0
     - scipy>=1.4.1
     - tqdm>=4.42.1
     - becke-multicenter-integration>=0.0.1
